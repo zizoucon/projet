@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+  
+    color: #888;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+}
+h1,h3{
+    padding: 1%;
+    font-weight: 100;
+    line-height: 0.8;
+}
+button {
+    background-color: #293F50;
+    color: #888;
+    WIDTH: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    MARGIN: 4px;
+    padding: 4px;
+    border: 1px solid white;
+}
+.header{
+    
+    height: 60vh;
+    width: 100%;
+    background-color: #293F50;
+    color: #888;
+    font-family: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.header h1{
+font-weight: 100;
+
+    line-height: 0.8;}
+.Menucontent{
+    display: flex;
+    padding-top: 20px;
+    JUSTIFY-CONTENT: CENTER;
+    JUSTIFY-ITEMS: CENTER;
+    PADDING-LEFT: 30PX;
+    PADDING-RIGHT: 30PX;
+    width:100%;
+}
+
+.logo{
+
+flex: 1;
+align-content: flex-start;
+flex-basis: 30%;
+
+}
+.logo h1{
+    LETTER-SPACING: 7px;
+}
+.nav{
+flex: 2;
+flex-direction: row;
+flex-basis: 30%;
+
+}
+a{
+    color: white;
+    text-decoration: none; 
+    /* font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-weight: 100;
+    line-height: 0.8;
+}
+a:hover{
+    border: 1PX SOLID WHITE;
+    PADDING: 1%;
+    color: white;
+
+}
+a:focus{
+
+}
+a:link{
+    color: #648880;
+    text-decoration: none; 
+    font-weight: 100;
+    line-height: 0.8;
+}
+a:visited{
+
+}
+.nav-1 h3{
+text-align-last: right;
+font-weight: 100;
+    line-height: 0.8;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    FLEX: 2;
+    overflow: hidden; 
+    height: 32px;
+     
+}
+.menu>div{
+    /* margin: 5px; */
+    margin: 5px;
+}
+.element{
+   
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+    width: 100%;
+}
+
+
+.main{
+    display: flex;
+    
+    text-shadow: gray;
+    color:  #888;
+    font-size: 12px;
+    line-height: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    -webkit-text-stroke-width: thin;
+   
+}
+.main>div{
+    padding: 1%;
+ 
+}
+img{
+    width: 300px;
+    border-radius: 10PX;
+}
+.footer{
+background-color:#293F50;
+display: flex;
+padding-bottom: 20px;
+width: 100%;
+  overflow: hidden; }
+  .footer>div{
+   
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    FLEX: 2;
+    overflow: hidden;
+    height: 32px;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.footer.txt h3{
+
+    font-weight: 100;
+    line-height: 0.8;
+    letter-spacing: 5px;
+}
+.footer.menu div{
+
+    margin: 5px;
+}
+}
+    .end{
+        background-color:white;
+        height: 50px;
+    }
